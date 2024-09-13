@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹性盒</title>
+
+    <style>
+        #box {
+            width: 600px;
+            height: 500px;
+            border: 3px solid black;
+            display: flex;
+            /* 折行显示 */
+            flex-wrap: wrap;
+
+            /* 控制折行排列方式 */
+            /* align-content: space-around; */
+        }
+
+        #box div {
+            width: 100px;
+            height: 100px;
+            border: 1px dashed red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+</body>
+
+</html>
